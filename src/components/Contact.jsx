@@ -40,37 +40,39 @@ function Contact() {
         ref={form}
         onSubmit={sendEmail}
       >
-        <div>
-          <div className="text-[14px] sm:text-[16px]">Name</div>
-          <input
-            className="text-[14px] sm:text-[16px] bg-[#f8f8f8] w-full mt-[4px] px-[16px] py-[12px] border-[1px] border-[#DCDFED] rounded-[1px] outline-[#50bdf2] focus:border-[#50bdf2] focus:ring-[#50bdf2]"
-            type="text"
-            name="user_name"
-            placeholder="Enter Your Name"
-            required
-          />
+        <div className=" flex flex-col mt-[10px] sm:mx-[20px] gap-[20px] ">
+          <div>
+            <div className="text-[14px] sm:text-[16px]">Name</div>
+            <input
+              className="text-[14px] sm:text-[16px] bg-[#f8f8f8] w-full mt-[4px] px-[16px] py-[12px] border-[1px] border-[#DCDFED] rounded-[1px] outline-[#50bdf2] focus:border-[#50bdf2] focus:ring-[#50bdf2]"
+              type="text"
+              name="user_name"
+              placeholder="Enter Your Name"
+              required
+            />
+          </div>
+          <div>
+            <div className="text-[14px] sm:text-[16px]">Email</div>
+            <input
+              className="text-[14px] sm:text-[16px] bg-[#f8f8f8] w-full mt-[4px] px-[16px] py-[12px] border-[1px] border-[#DCDFED] rounded-[1px] outline-[#50bdf2] focus:border-[#50bdf2] focus:ring-[#50bdf2]"
+              type="email"
+              name="user_email"
+              placeholder="Enter Your Email"
+              required
+            />
+          </div>
+          <div>
+            <div className="text-[14px] sm:text-[16px]">Message</div>
+            <textarea
+              className="text-[14px] sm:text-[16px] bg-[#f8f8f8] w-full mt-[4px] px-[16px] py-[12px] border-[1px] border-[#DCDFED] rounded-[1px] outline-[#50bdf2] focus:border-[#50bdf2] focus:ring-[#50bdf2]"
+              cols="10"
+              rows="10"
+              name="message"
+              placeholder="Enter Your Message"
+            />
+          </div>
         </div>
-        <div>
-          <div className="text-[14px] sm:text-[16px]">Email</div>
-          <input
-            className="text-[14px] sm:text-[16px] bg-[#f8f8f8] w-full mt-[4px] px-[16px] py-[12px] border-[1px] border-[#DCDFED] rounded-[1px] outline-[#50bdf2] focus:border-[#50bdf2] focus:ring-[#50bdf2]"
-            type="email"
-            name="user_email"
-            placeholder="Enter Your Email"
-            required
-          />
-        </div>
-        <div>
-          <div className="text-[14px] sm:text-[16px]">Message</div>
-          <textarea
-            className="text-[14px] sm:text-[16px] bg-[#f8f8f8] w-full mt-[4px] px-[16px] py-[12px] border-[1px] border-[#DCDFED] rounded-[1px] outline-[#50bdf2] focus:border-[#50bdf2] focus:ring-[#50bdf2]"
-            cols="10"
-            rows="10"
-            name="message"
-            placeholder="Enter Your Message"
-          />
-        </div>
-        <div className="flex justify-center">
+        <div className="mb-[10px] flex justify-center">
           <motion.button
             className="flex flex-row justify-center items-center w-full h-[40px] md:h-[50px] mt-[10px] mx-[40px] text-[16px] md:text-[22px] text-[#fbffff] border-2 bg-[#50bdf2] border-[#50bdf2] rounded-lg"
             whileHover={{

@@ -30,25 +30,25 @@ const Navbar = () => {
           {/* Navigation Links for Large Screens */}
           <div className="hidden sm:flex space-x-4">
             <a
-              className="px-[10px] py-[5px] text-[16px] hover:font-[500] text-[#fbffff] hover:text-[#50bdf2] cursor-pointer"
+              className="px-[10px] py-[5px] text-[16px] text-[#fbffff] hover:text-[#50bdf2] cursor-pointer"
               onClick={() => scroll("Home")}
             >
               Home
             </a>
             <a
-              className="px-[10px] py-[5px] text-[16px] hover:font-[500] text-[#fbffff] hover:text-[#50bdf2] cursor-pointer"
+              className="px-[10px] py-[5px] text-[16px] text-[#fbffff] hover:text-[#50bdf2] cursor-pointer"
               onClick={() => scroll("About")}
             >
               About
             </a>
             <a
-              className="px-[10px] py-[5px] text-[16px] hover:font-[500] text-[#fbffff] hover:text-[#50bdf2] cursor-pointer"
+              className="px-[10px] py-[5px] text-[16px] text-[#fbffff] hover:text-[#50bdf2] cursor-pointer"
               onClick={() => scroll("Project")}
             >
               Projects
             </a>
             <a
-              className="px-[10px] py-[5px] text-[16px] hover:font-[500] text-[#fbffff] hover:text-[#50bdf2] cursor-pointer"
+              className="px-[10px] py-[5px] text-[16px] text-[#fbffff] hover:text-[#50bdf2] cursor-pointer"
               onClick={() => scroll("Contact")}
             >
               Contact

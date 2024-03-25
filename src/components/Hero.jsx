@@ -18,22 +18,24 @@ function hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1 }}
         >
-          <h1 className="text-center md:text-justify text-[38px] md:text-[58px] text-[#fbffff] font-[500]">
-            Hello, My name is KRIT
-          </h1>
-          <h2 className="text-[14px] md:text-[18px] text-[#50bdf2]">
+          <div className="md:flex my-[10px]">
+            <div className="md:text-justify text-[38px] md:text-[58px] text-[#fbffff] font-[500]">
+              Hello,
+            </div>
+            <div className="md:text-justify text-[30px] md:text-[58px] text-[#fbffff] font-[500]">
+              My name is KRIT
+            </div>
+          </div>
+          <div className="text-[14px] md:text-[18px] text-[#50bdf2]">
             I'm a Junior Developer
-          </h2>
+          </div>
           <p className="text-[16px] md:text-[26px] text-[#50bdf2] md:w-[600px]  my-[10px]">
             &emsp;I want to create an amazing web experience. To achieve my
             goal. I keep practice coding and learning everyday.
           </p>
           <div className="w-[50px] my-[10px] border-b-[1px]"></div>
-          <button
-            className="flex justify-center md:justify-normal "
-            onClick={() => scroll("Contact")}
-          >
-            <motion.button
+          <button onClick={() => scroll("Contact")}>
+            <motion.div
               className="flex flex-col justify-center items-center w-[100px] md:w-[140px] h-[40px] md:h-[50px] mt-[10px] text-[16px] md:text-[22px] text-white border-2 border-[#50bdf2] rounded-lg"
               whileHover={{
                 scale: 1.2,
@@ -42,7 +44,7 @@ function hero() {
               transition={{ type: "spring", stiffness: 400, damping: 10 }}
             >
               Contact me
-            </motion.button>
+            </motion.div>
           </button>
         </motion.div>
         {/* <motion.div
