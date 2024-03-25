@@ -18,11 +18,11 @@ function hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1 }}
         >
-          <div className="md:flex my-[10px]">
-            <div className="md:text-justify text-[38px] md:text-[58px] text-[#fbffff] font-[500]">
+          <div className="md:flex my-[10px] gap-[20px]">
+            <div className="md:text-justify text-[50px] md:text-[58px] text-[#fbffff] font-[500]">
               Hello,
             </div>
-            <div className="md:text-justify text-[30px] md:text-[58px] text-[#fbffff] font-[500]">
+            <div className="md:text-justify text-[34px] md:text-[58px] text-[#fbffff] font-[500]">
               My name is KRIT
             </div>
           </div>
