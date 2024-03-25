@@ -18,7 +18,7 @@ function hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1 }}
         >
-          <h1 className="text-[24px] md:text-[58px] text-[#fbffff] font-[500]">
+          <h1 className="text-center md:text-justify text-[38px] md:text-[58px] text-[#fbffff] font-[500]">
             Hello, My name is KRIT
           </h1>
           <h2 className="text-[14px] md:text-[18px] text-[#50bdf2]">
@@ -29,7 +29,10 @@ function hero() {
             goal. I keep practice coding and learning everyday.
           </p>
           <div className="w-[50px] my-[10px] border-b-[1px]"></div>
-          <button onClick={() => scroll("Contact")}>
+          <button
+            className="flex justify-center md:justify-normal "
+            onClick={() => scroll("Contact")}
+          >
             <motion.button
               className="flex flex-col justify-center items-center w-[100px] md:w-[140px] h-[40px] md:h-[50px] mt-[10px] text-[16px] md:text-[22px] text-white border-2 border-[#50bdf2] rounded-lg"
               whileHover={{
