@@ -22,7 +22,7 @@ function hero() {
             <div className="md:text-justify text-[50px] md:text-[58px] text-[#fbffff] font-[500]">
               Hello,
             </div>
-            <div className="md:text-justify text-[34px] md:text-[58px] text-[#fbffff] font-[500]">
+            <div className="md:text-justify text-[32px] md:text-[58px] text-[#fbffff] font-[500]">
               My name is KRIT
             </div>
           </div>
