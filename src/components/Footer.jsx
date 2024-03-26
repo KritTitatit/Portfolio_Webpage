@@ -33,17 +33,17 @@ function Footer() {
         <div className="flex flex-col mx-auto sm:mx-[0] gap-[10px]">
           <div className="flex gap-[20px]">Follow me</div>
           <div className="flex gap-[20px] mx-auto">
-            <a
-              href="https://www.linkedin.com/in/titatit-akkhranatpraphin-51a18b2bb/"
-              target="_blank"
-            >
+            <a href="https://github.com/KritTitatit" target="_blank">
               <img
                 className="w-[24px] h-[24px]"
                 src={githubLogo}
                 alt="github_logo"
               />
             </a>
-            <a href="https://github.com/KritTitatit" target="_blank">
+            <a
+              href="https://www.linkedin.com/in/titatit-akkhranatpraphin-51a18b2bb/"
+              target="_blank"
+            >
               <img
                 className="bg-[#fbffff] rounded-[4px] w-[24px] h-[24px]"
                 src={linkedinLogo}
